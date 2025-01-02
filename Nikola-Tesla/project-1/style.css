@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:monospace;
+}
+
+.container{
+    background-color: #211F1F;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding: 40px 70px;
+    color: white;
+    gap: 90px;
+}
+
+.section-1{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 3000px;
+    /* border: 1px solid white; */
+    
+}
+
+.bio{
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+}
+
+.bio img{
+    height: 120px;
+    border-radius: 50%;
+}
+
+.bio .birth{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.birth h1{
+    font-size: 40px;
+}
+
+.birth h3{
+    font-size: 25px;
+}
+
+ul{
+    font-size: 24px;   
+    margin-bottom: 20px;    
+}
+
+.about li{
+    list-style-type: none;
+}
+
+ul li{
+    font-size: 18px;
+}
+
+.heading{
+    margin-left: -40px;
+}
+
+.inventions .heading {
+    margin-left: -60px;
+}
+
+.inventions li{
+    margin-bottom: 20px;
+
+}
+
+.facts li{
+    margin-bottom: 5px;
+}
+
+
